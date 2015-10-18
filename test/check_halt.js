@@ -2,7 +2,7 @@ var test = require("tap").test
 var raycast = require("..")
 
 test("halts", function (t) {
-	var fakeVoxel = { getBlock: function () { return 0; } }
+	var fakeVoxel = function () { return 0 }
 	var pos = new Array(3)
 	var direction = new Array(3)
 	var start = +new Date()

@@ -1,7 +1,7 @@
 var test = require("tap").test
 var raycast = require("..")
 
-var voxel = { getBlock: function (x, y, z) { return x === 0 && y === 0 && z === 0 ? 1 : 0 } }
+var voxel = function (x, y, z) { return x === 0 && y === 0 && z === 0 ? 1 : 0 }
 
 test("shallow", function (t) {
 	t.equals(raycast(voxel,

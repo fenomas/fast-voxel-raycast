@@ -3,7 +3,7 @@ var raycast = require("..")
 
 test("sphere", function (t) {
 
-	var voxel = { getBlock: function (x, y, z) { return x === 0 && y === 0 && z === 0 ? 1 : 0; } }
+	var voxel = function (x, y, z) { return x === 0 && y === 0 && z === 0 ? 1 : 0; }
 	var hit_position = new Array(3)
 	var hit_normal = new Array(3)
 
