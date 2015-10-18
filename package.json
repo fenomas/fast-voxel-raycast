@@ -1,0 +1,21 @@
+{
+  "name": "fast-voxel-raycast",
+  "version": "0.1.0",
+  "description": "Fast raycasting through voxels",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*"
+  },
+  "keywords": [
+    "voxel",
+    "raycast"
+  ],
+  "author": "Andy Hall",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^2.1.1"
+  }
+}
