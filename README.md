@@ -17,9 +17,11 @@ in which case no particular behavior is defined.
     
 ### Usage
 
-    var raycast = require('fast-voxel-raycast')
-    
-    raycast( getVoxel, start, direction, distance, hit_position, hit_normal )
+```js
+var raycast = require('fast-voxel-raycast')
+
+raycast( getVoxel, start, direction, distance, hit_position, hit_normal )
+```
 
 * `getVoxel` - a `function(x,y,z)` that returns a truthy value for whether each voxel should block the raycast
 * `start` - origin of the ray
@@ -33,22 +35,23 @@ or `0` if no voxel was struck.
 
 ### Example
 
-    var raycast = require('fast-voxel-raycast')
-    
-    var getVoxel = function(x,y,z) {
-        // return a truthy value here for voxels that block the raycast
-        return (y<0) ? 1 : 0
-    }
-    
-    var hit_position = []
-    var hit_normal = []
-    
-    var result = raycast( getVoxel, [3,4,5], [1,-1,-1], 20, hit_position, hit_normal )
-    
-    if (result != 0) {
-        console.log('hit:', result, hit_position, hit_normal)
-    } else {
-        console.log('no truthy voxel was struck')
-    }
+```js
+var raycast = require('fast-voxel-raycast')
 
+var getVoxel = function(x,y,z) {
+    // return a truthy value here for voxels that block the raycast
+    return (y<0) ? 1 : 0
+}
+
+var hit_position = []
+var hit_normal = []
+
+var result = raycast( getVoxel, [3,4,5], [1,-1,-1], 20, hit_position, hit_normal )
+
+if (result != 0) {
+    console.log('hit:', result, hit_position, hit_normal)
+} else {
+    console.log('no truthy voxel was struck')
+}
+```
 
