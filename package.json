@@ -17,5 +17,14 @@
   "license": "MIT",
   "devDependencies": {
     "tap": "^2.1.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyhall/fast-voxel-raycast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andyhall/fast-voxel-raycast/issues"
+  },
+  "homepage": "https://github.com/andyhall/fast-voxel-raycast#readme"
 }
