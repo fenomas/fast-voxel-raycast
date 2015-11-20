@@ -11,6 +11,9 @@ In general it functions equivalently to the parent library, except for
 edge cases (e.g. when the raycast precisely touches the corner of a solid voxel),
 in which case no particular behavior is defined.
 
+For 2D raycasting, also see noffle's 
+[wrapped implementation](https://github.com/noffle/raycast-2d-tilemap) of this module.
+
 ### Installation
 
     npm install fast-voxel-raycast
