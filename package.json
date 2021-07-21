@@ -21,10 +21,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andyhall/fast-voxel-raycast.git"
+    "url": "git+https://github.com/fenomas/fast-voxel-raycast.git"
   },
   "bugs": {
-    "url": "https://github.com/andyhall/fast-voxel-raycast/issues"
+    "url": "https://github.com/fenomas/fast-voxel-raycast/issues"
   },
-  "homepage": "https://github.com/andyhall/fast-voxel-raycast#readme"
+  "homepage": "https://github.com/fenomas/fast-voxel-raycast#readme"
 }
