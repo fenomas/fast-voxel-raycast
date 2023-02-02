@@ -4,7 +4,7 @@ Fast raycasting through voxels.
 
 This is a fork of [voxel-raycast](https://github.com/mikolalysenko/voxel-raycast), 
 using the faster, simpler algorithm described in 
-[this paper](http://www.cse.chalmers.se/edu/year/2010/course/TDA361/grid.pdf)
+[this paper](http://www.cs.yorku.ca/~amana/research/grid.pdf)
 by Amanatides and Woo.
 
 In general it functions equivalently to the parent library, except for 
